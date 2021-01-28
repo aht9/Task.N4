@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Workout.N4</string>
+    <string name="title">Task.N4</string>
+    <string name="details">Details</string>
+    <string name="call">Call</string>
+    <string name="show_notify">Show Notify</string>
+    <string name="permission">Permission</string>
+    <string name="enter_your_fullname">Enter Your FullName</string>
+    <string name="enter_your_phonenumber">Enter Your PhoneNumber</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="go_save">Go Save!</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="fullname_not_found">FullName Not Found</string>
+    <string name="phonenumber_not_found">PhoneNumber Not Found</string>
+    <string name="email_not_found">Email Not Found</string>
+    <string name="call_now">Call Now !</string>
+    <string name="please_enter_your_phone_number">Please Enter Your Phone Number :</string>
+</resources>

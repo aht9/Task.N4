@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail1Activity"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="#00BCD4"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_FullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="@string/enter_your_fullname"/>
+            <EditText
+                android:id="@+id/et_PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:hint="@string/enter_your_phonenumber"/>
+            <EditText
+                android:id="@+id/et_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:hint="@string/enter_your_email"/>
+
+            <Button
+                android:id="@+id/btn_GoSave"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:shadowRadius="50"
+                android:text="@string/go_save" />
+
+
+        </LinearLayout>
+        
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_FullName_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/fullname_not_found"/>
+    <TextView
+        android:id="@+id/tv_PhoneNumber_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/phonenumber_not_found"/>
+    <TextView
+        android:id="@+id/tv_Email_res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/email_not_found"/>
+
+</LinearLayout>
